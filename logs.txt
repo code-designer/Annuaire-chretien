@@ -1,0 +1,5 @@
+05 sept. 2020 23:16:37,608 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+05 sept. 2020 23:16:38,789 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+05 sept. 2020 23:16:38,801 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+05 sept. 2020 23:16:38,895 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+05 sept. 2020 23:16:44,455 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
