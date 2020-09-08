@@ -27,15 +27,19 @@ public class Window {
 			e.printStackTrace();
 		}
 		PropertyConfigurator.configure(props);
+		//creer un dossier .annuaire pour stocker la base de donnée
+		File folderBase =  new File(FileUtils.PathAnn);
+		if(!folderBase.exists())
+			folderBase.mkdirs();
 		
 		//creer un dossier d'image au lancement du jar
 		//pour y copier une image par defaut
-		File imgFolder = new File("Images");
+		File imgFolder = new File(FileUtils.MyDoc+"Images");
 		if(!imgFolder.exists() || !imgFolder.isDirectory())
 		{
-			imgFolder.mkdir();
+			imgFolder.mkdirs();
 			InputStream inputStream = Window.class.getResourceAsStream("/unknown.png");
-			FileUtils.streamtoImage(inputStream, Paths.get("Images/unknown.png"));
+			FileUtils.streamtoImage(inputStream, Paths.get(FileUtils.MyDoc+"Images/unknown.png"));
 		}
 		
 		logger.trace("Lancement de l'application");

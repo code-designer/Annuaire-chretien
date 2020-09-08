@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.io.File;
 import java.time.format.DateTimeFormatter;
 
 import javax.swing.BoxLayout;
@@ -546,8 +547,15 @@ public class DataView extends JPanel {
 		this.txtResidence.setText(p.getContact().getResidence());
 		
 		if(p.getPathImg() != null)
-			this.photolab.setIcon(new ImageIcon(FileUtils.resizeImage(p.getPathImg().toString(), 200)));
+		{
+			File img = new File(p.getPathImg().toString());
+			
+			if(img.exists())
+				this.photolab.setIcon(new ImageIcon(FileUtils.resizeImage(p.getPathImg().toString(), 200)));
+			else
+				this.photolab.setIcon(new ImageIcon(FileUtils.resizeImage(FileUtils.MyDoc+"Images"+File.separator+"unknown.png", 200)));
+		}
 		else
-			this.photolab.setIcon(new ImageIcon(FileUtils.resizeImage("Images/unknown.png", 200)));
+			this.photolab.setIcon(new ImageIcon(FileUtils.resizeImage(FileUtils.MyDoc+"Images"+File.separator+"unknown.png", 200)));
 	}
 }

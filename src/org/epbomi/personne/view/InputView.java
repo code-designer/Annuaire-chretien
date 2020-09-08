@@ -214,7 +214,7 @@ public class InputView extends JPanel implements Observable{
 									sexCombo.setSelectedIndex(0);
 									secteurCombo.setSelectedIndex(0);
 									departementCombo.setSelectedIndex(0);
-									((JButton)e.getSource()).setText("Suivant");
+									nextBtn.setText("Suivant");
 								}
 								else
 								{
@@ -225,6 +225,7 @@ public class InputView extends JPanel implements Observable{
 							else
 							{
 								JOptionPane.showMessageDialog(null, pp.toString() + " a bien été mis à jour");
+								updateObserverForScreen();
 							}
 						
 						
