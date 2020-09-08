@@ -236,7 +236,9 @@ public class HomeView extends JPanel implements Observer {
 		//Ouvre le panneau pour les modifications des informations
 		modify.setIcon(new ImageIcon(this.getClass().getResource("/modify-icon.png")));
 		modify.addActionListener( e ->{
-			splitPane.setRightComponent(new InputView(control, list.getSelectedValue()));
+			InputView modifView = new InputView(control, list.getSelectedValue());
+			modifView.addObservers(HomeView.this);
+			splitPane.setRightComponent(modifView);
 		});
 		
 		//Supprime une ligne d'information

@@ -1,5 +1,6 @@
 package org.epbomi.personne.dao;
 
+import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -38,24 +39,24 @@ public class PersonneDAO extends DAO<Personne> {
 		try
 		{
 			connect.setAutoCommit(false);
-						
+			int i = 1;	
 			PreparedStatement pst = connect.prepareStatement("INSERT INTO personne (code, nom, prenoms, sexe, "
 					+ "date_de_naissance, lieu_de_naissance, ethnie, nationalite, pathimg) "
 					+ "VALUES (?,?,?,?,?,?,?,?,?);");
-			pst.setString(1, obj.getCode());
-			pst.setString(2, obj.getNom());
-			pst.setString(3, obj.getPrenoms());
-			pst.setObject(4, obj.getSexe());
-			pst.setObject(5, obj.getDateDeNaissance());
-			pst.setString(6, obj.getLieuDeNaissance());
-			pst.setObject(7, obj.getEthnie());
-			pst.setString(8, obj.getNationalite());
+			pst.setString(i++, obj.getCode());
+			pst.setString(i++, obj.getNom());
+			pst.setString(i++, obj.getPrenoms());
+			pst.setObject(i++, obj.getSexe());
+			pst.setObject(i++, obj.getDateDeNaissance());
+			pst.setString(i++, obj.getLieuDeNaissance());
+			pst.setObject(i++, obj.getEthnie());
+			pst.setString(i++, obj.getNationalite());
 			
 			if(Files.isRegularFile(obj.getPathImg()))
-				pst.setObject(9, FileUtils.copy(obj.getPathImg(), Paths.get("Images/user_" + obj.getCode() + 
-					"." + FileUtils.getExtension(obj.getPathImg().toString()))));
+				pst.setObject(i++, FileUtils.copy(obj.getPathImg(), Paths.get(FileUtils.MyDoc+"Images"+File.separator+
+						"user_" + obj.getCode() +"." + FileUtils.getExtension(obj.getPathImg().toString()))));
 			else
-				pst.setObject(9, Paths.get("Images/unknown.png"));
+				pst.setObject(i++, Paths.get("Images"+File.separator+"unknown.png"));
 				
 			int rep = pst.executeUpdate();
 			pst.close();
@@ -146,10 +147,10 @@ public class PersonneDAO extends DAO<Personne> {
 			pst.setString(i++, obj.getNationalite());
 			
 			if(Files.isRegularFile(obj.getPathImg()))
-				pst.setObject(i++, FileUtils.copy(obj.getPathImg(), Paths.get("Images/user_" + obj.getCode() + 
-					"." + FileUtils.getExtension(obj.getPathImg().toString()))));
+				pst.setObject(i++, FileUtils.copy(obj.getPathImg(), Paths.get(FileUtils.MyDoc+"Images"+File.separator+
+						"user_" + obj.getCode() +"." + FileUtils.getExtension(obj.getPathImg().toString()))));
 			else
-				pst.setObject(i++, Paths.get("Images/user_default.png"));
+				pst.setObject(i++, Paths.get("Images"+File.separator+"unknown.png"));
 			
 			//pst.setString(i++, obj.getPathImg().toString());
 			pst.setInt(i++, obj.getPersonneID());
@@ -197,7 +198,7 @@ public class PersonneDAO extends DAO<Personne> {
 				Ethnie eth = Ethnie.toEnum(res.getString("ethnie"));
 				LocalDate ld = LocalDate.parse(res.getString("date_de_naissance"),
 						DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-				Path path = (!res.getString("pathimg").isEmpty()) ? Paths.get(res.getString("pathimg")) : null;
+				Path path = (res.getString("pathimg") != null) ? Paths.get(res.getString("pathimg")) : null;
 				p = new Personne(res.getInt("personne_id"),res.getString("code"),res.getString("nom"), 
 						res.getString("prenoms"),sx, ld, res.getString("lieu_de_naissance"), eth,
 						res.getString("nationalite"),path);

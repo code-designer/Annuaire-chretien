@@ -21,7 +21,7 @@ public class DBConnection {
 			{
 				Class.forName("org.sqlite.JDBC");
 				//connect = DriverManager.getConnection("jdbc:sqlite::resource:database.db");
-				connect = DriverManager.getConnection("jdbc:sqlite:database.db");
+				connect = DriverManager.getConnection("jdbc:sqlite:"+FileUtils.PathAnn+"database.db");
 				logger.trace("Connexion à la base de données");
 			}
 		}
@@ -44,7 +44,7 @@ public class DBConnection {
 			{
 				Class.forName("org.sqlite.JDBC");
 				//connect = DriverManager.getConnection("jdbc:sqlite::resource:database.db");
-				connect = DriverManager.getConnection("jdbc:sqlite:database.db");
+				connect = DriverManager.getConnection("jdbc:sqlite:"+FileUtils.PathAnn+"database.db");
 				logger.trace("Connexion à la base de données");
 				createDatabaseTable(connect, FileUtils.getSQLFileContent(DBConnection.class.getResourceAsStream("/database.sql")));
 			}

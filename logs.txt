@@ -3,3 +3,314 @@
 05 sept. 2020 23:16:38,801 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
 05 sept. 2020 23:16:38,895 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
 05 sept. 2020 23:16:44,455 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 11:25:31,330 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 11:25:32,748 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 11:25:32,785 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 11:25:33,028 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 11:27:56,899 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 11:27:57,461 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 11:27:57,464 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 11:27:57,534 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 11:31:48,743 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 11:31:49,219 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 11:31:49,259 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 11:31:49,260 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 11:32:00,642 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 11:41:33,419 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 11:42:01,552 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.DBConnection  - Echec de connexion à la base de données
+07 sept. 2020 11:45:04,236 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 11:45:05,348 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 11:45:05,384 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 11:45:05,386 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 11:45:19,358 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:17:50,584 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:17:52,227 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:17:52,244 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:19:06,527 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:19:07,691 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:19:07,696 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:19:07,784 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:19:23,153 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:19:32,258 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:19:33,319 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:19:33,324 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:19:33,356 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:23:08,887 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de ESSE FRANCOIS dans la base de données
+07 sept. 2020 12:25:02,390 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:25:03,788 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:25:03,792 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:25:03,826 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:25:58,337 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:25:59,633 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:25:59,641 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:25:59,700 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:28:03,131 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:28:04,371 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:28:04,375 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:28:04,431 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:31:37,692 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:31:38,679 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:31:38,684 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:31:38,718 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:31:49,469 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:32:31,608 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:32:32,758 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:32:32,762 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:32:32,831 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:32:40,702 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:32:45,622 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:32:46,597 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:32:46,601 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:32:46,665 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:32:51,157 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:32:56,084 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:32:57,405 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:32:57,408 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:32:57,445 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:33:01,289 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:33:04,132 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:33:05,112 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:33:05,117 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:33:05,172 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:33:10,079 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:33:12,591 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:33:14,004 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:33:14,009 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:33:14,040 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:33:17,723 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:33:39,442 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:33:40,647 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:33:40,649 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:33:40,686 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:33:45,513 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:33:53,614 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:33:54,762 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:33:54,764 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:33:54,802 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:33:59,683 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:34:14,376 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:34:15,468 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:34:15,478 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:34:15,579 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:34:20,357 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:35:14,997 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:35:16,074 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:35:16,078 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:35:16,117 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:35:20,781 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:37:12,710 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:37:13,781 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:37:13,788 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:37:13,868 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:38:09,510 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec d'ajout d'information
+07 sept. 2020 12:38:15,463 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:38:22,290 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec d'ajout d'information
+07 sept. 2020 12:38:24,211 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de N'GUESSAN OLGA dans la base de données
+07 sept. 2020 12:38:57,950 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:39:02,635 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:39:03,918 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:39:03,928 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:39:04,014 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:39:34,953 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de ABE SUZANNE dans la base de données
+07 sept. 2020 12:39:54,031 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:45:28,616 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:45:29,936 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:45:29,943 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:45:30,038 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:45:56,829 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:45:59,588 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:46:00,615 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:46:00,620 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:46:00,650 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:46:32,905 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de ESSE FRANCOIS
+07 sept. 2020 12:46:46,647 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:46:52,568 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:46:53,761 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:46:53,767 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:46:53,800 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:47:04,173 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:47:49,827 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:47:51,062 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:47:51,068 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:47:51,120 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:48:28,240 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec de mise à jour
+07 sept. 2020 12:48:33,789 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:49:49,404 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:49:50,574 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:49:50,579 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:49:50,649 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:51:11,780 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:51:12,971 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:51:12,975 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:51:13,017 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:51:30,852 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:52:45,686 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:52:46,969 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:52:46,973 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:52:47,045 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:53:22,391 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec de mise à jour
+07 sept. 2020 12:53:27,746 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:53:44,492 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:53:53,570 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:53:54,687 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:53:54,692 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:53:54,744 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:54:28,252 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KOFFI ALAIN GERALD
+07 sept. 2020 12:54:40,173 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:54:43,247 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:54:44,638 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:54:44,642 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:54:44,697 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:55:54,116 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 12:55:55,261 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 12:55:55,267 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 12:55:55,299 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 12:56:12,874 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 12:56:19,144 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:08:03,384 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:08:04,602 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:08:04,623 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:08:04,684 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:08:15,818 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:09:10,545 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:09:11,692 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:09:11,698 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:09:11,732 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:09:21,554 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:10:03,817 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:10:04,987 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:10:04,989 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:10:05,031 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:11:14,192 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KOFFI ALAIN GERALD
+07 sept. 2020 17:11:20,716 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:11:24,051 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:11:25,405 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:11:25,410 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:11:25,441 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:13:24,492 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:16:35,737 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:16:36,838 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:16:36,845 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:16:36,927 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:17:12,062 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KOFFI ALAIN GERALD
+07 sept. 2020 17:17:21,111 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:17:24,369 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:17:25,461 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:17:25,464 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:17:25,495 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:18:12,470 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:21:44,121 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:21:45,508 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:21:45,513 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:21:45,545 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:22:23,600 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KOFFI ALAIN GERALD
+07 sept. 2020 17:22:29,682 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:23:23,349 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:23:24,321 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:23:24,325 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:23:24,355 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:24:30,607 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de N'GUESSAN OLGA
+07 sept. 2020 17:24:36,321 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:24:40,750 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:24:41,982 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:24:41,986 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:24:42,019 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:27:48,554 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:27:49,783 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:27:49,787 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:27:49,822 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:28:16,326 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec de mise à jour
+07 sept. 2020 17:28:21,730 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:28:26,783 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:28:30,045 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:28:31,164 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:28:31,172 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:28:31,237 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:29:09,101 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KOFFI ALAIN GERALD
+07 sept. 2020 17:29:15,921 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:29:20,252 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:29:21,351 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:29:21,355 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:29:21,437 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:29:38,398 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:34:47,858 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:34:49,246 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:34:49,251 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:34:49,297 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:35:38,348 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de N'GUESSAN OLGA
+07 sept. 2020 17:35:43,914 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:35:47,535 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:35:48,693 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:35:48,697 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:35:48,746 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:36:54,073 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de FONA CHRISTELLE dans la base de données
+07 sept. 2020 17:38:48,213 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:41:24,953 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:41:25,956 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:41:25,959 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:41:25,991 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:42:08,217 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de FONA CHRISTELLE
+07 sept. 2020 17:42:14,368 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:42:17,121 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:42:18,234 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:42:18,236 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:42:18,307 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:43:37,386 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:44:21,634 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:44:22,726 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:44:22,731 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:44:22,768 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:45:09,223 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de ZOKOU SERI ARISTIDE dans la base de données
+07 sept. 2020 17:48:05,147 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec d'ajout d'information
+07 sept. 2020 17:48:12,695 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:48:16,288 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:48:17,520 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:48:17,525 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:48:17,582 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:48:49,854 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de ZOKOU SERI ARISTIDE
+07 sept. 2020 17:48:58,252 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:49:17,047 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:49:18,174 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:49:18,179 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:49:18,212 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:51:04,368 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:52:00,825 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:52:02,169 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:52:02,171 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:52:02,206 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:53:15,195 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 17:56:12,441 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:56:12,468 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 17:56:13,767 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:56:13,780 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 17:56:13,809 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:56:13,811 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:56:13,815 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 17:56:13,818 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 17:57:15,487 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de ACHOU THIERRY PACOME dans la base de données
+07 sept. 2020 17:58:44,421 [AWT-EventQueue-0] ERROR org.epbomi.personne.dao.PersonneDAO  - Echec d'ajout d'information
+07 sept. 2020 17:58:53,052 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Ajout de HIEN JACQUES HERVE dans la base de données
+07 sept. 2020 18:00:15,819 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 18:00:21,337 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+07 sept. 2020 18:04:37,386 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+07 sept. 2020 18:04:37,964 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+07 sept. 2020 18:04:38,004 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+07 sept. 2020 18:04:38,009 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+07 sept. 2020 18:04:50,812 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+08 sept. 2020 11:03:17,113 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+08 sept. 2020 11:03:18,454 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+08 sept. 2020 11:03:18,471 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+08 sept. 2020 11:03:18,586 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+08 sept. 2020 11:03:40,496 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de KASSI CHARLES
+08 sept. 2020 11:04:05,516 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+08 sept. 2020 11:08:53,396 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+08 sept. 2020 11:08:54,781 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+08 sept. 2020 11:08:54,794 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+08 sept. 2020 11:08:54,828 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+08 sept. 2020 11:09:18,182 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Mise à jour des informations de AKA  MELANIE REINE
+08 sept. 2020 11:16:07,973 [main] TRACE org.epbomi.personne.view.Window  - Lancement de l'application
+08 sept. 2020 11:16:09,374 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Connexion à la base de données
+08 sept. 2020 11:16:09,379 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.DBConnection  - Configuration de la base de données
+08 sept. 2020 11:16:09,447 [AWT-EventQueue-0] TRACE org.epbomi.personne.dao.PersonneDAO  - Recuperation de la liste de données
+08 sept. 2020 11:16:15,221 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application
+08 sept. 2020 11:16:40,261 [AWT-EventQueue-0] TRACE org.epbomi.personne.view.Frame  - Fermerture de l'application

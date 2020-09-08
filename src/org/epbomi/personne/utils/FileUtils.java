@@ -18,7 +18,9 @@ import javax.imageio.ImageIO;
 import org.apache.log4j.Logger;
 
 public class FileUtils {
-	private static final Path pathImg = Paths.get("Images/unknown.png");
+	public static String PathAnn = System.getProperty("user.home")+ File.separator + ".annuaire"+ File.separator;
+	public static String MyDoc = System.getProperty("user.home")+ File.separator + "Documents"+File.separator;
+	private static final String pathImg = "Images"+File.separator+"unknown.png";
 	private static final Logger logger = Logger.getLogger(FileUtils.class);
 	
 	/**
@@ -33,7 +35,7 @@ public class FileUtils {
 				if(source != null)
 					return Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
 				else
-					return pathImg;
+					return Paths.get(MyDoc+pathImg);
 			} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -97,7 +99,7 @@ public class FileUtils {
 	}
 	
 	/**
-	 * Redimension un image
+	 * Redimension une image
 	 * @param url String
 	 * @param size Integer
 	 * @return type Image
@@ -106,7 +108,8 @@ public class FileUtils {
 	{
 		Image img = null;
 		try {
-			img = ImageIO.read(new File(url));
+			if(url != null && url != "")
+				img = ImageIO.read(new File(url));
 			return img.getScaledInstance(size, size, Image.SCALE_SMOOTH);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
