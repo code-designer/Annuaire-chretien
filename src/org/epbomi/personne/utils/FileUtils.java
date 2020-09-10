@@ -32,7 +32,7 @@ public class FileUtils {
 	public static Path copy(Path source, Path destination)
 	{
 			try {
-				if(source != null)
+				if(source != null || source != Paths.get(MyDoc+pathImg))
 					return Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
 				else
 					return Paths.get(MyDoc+pathImg);

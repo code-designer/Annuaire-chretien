@@ -96,10 +96,12 @@ public class Imprimable implements Printable {
 		g.drawString(p.getLieuDeNaissance(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Ethnie : ", startX, startY);
-		g.drawString(p.getEthnie().toString(), startX + decalage, startY);
+		if(p.getEthnie() != null)
+			g.drawString(p.getEthnie().toString(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Nationalite : ", startX, startY);
-		g.drawString(p.getNationalite(), startX + decalage, startY);
+		if(p.getNationalite() != null)
+			g.drawString(p.getNationalite(), startX + decalage, startY);
 		
 		startY += 10;
 		g.setColor(new Color(0,0,255));
@@ -110,16 +112,19 @@ public class Imprimable implements Printable {
 		startY += lineHeight;
 		g.setColor(Color.BLACK);
 		g.drawString("Profession : ", startX, startY);
-		g.drawString(p.getProfession().getProfession(), startX + decalage, startY);
+		if(p.getProfession().getProfession() != null)
+			g.drawString(p.getProfession().getProfession(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Structure : ", startX, startY);
+		if(p.getProfession().getStructure() != null)
 		g.drawString(p.getProfession().getStructure(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Secteur d'activité : ", startX, startY);
 		g.drawString(p.getProfession().getSecteur().toString(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Descritif activité : ", startX, startY);
-		g.drawString(p.getProfession().getDescriptifActivite(), startX + decalage, startY);
+		if(p.getProfession().getDescriptifActivite() != null)
+			g.drawString(p.getProfession().getDescriptifActivite(), startX + decalage, startY);
 		
 		startY += 10;
 		g.setColor(new Color(0,0,255));
@@ -133,10 +138,13 @@ public class Imprimable implements Printable {
 		g.drawString(p.getVieConjugale().getSituation().toString(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Conjoint : ", startX, startY);
+		if(p.getVieConjugale().getConjoint() != null)
 		g.drawString(p.getVieConjugale().getConjoint(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Date d'union : ", startX, startY);
-		g.drawString(p.getVieConjugale().getDateUnion().format(DateTimeFormatter.ofPattern("dd-MMM-yyyy")), startX + decalage, startY);
+		if(p.getVieConjugale().getDateUnion() != null)
+			g.drawString(p.getVieConjugale().getDateUnion().format(DateTimeFormatter.ofPattern("dd-MMM-yyyy")), 
+					startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Nombre d'enfants : ", startX, startY);
 		g.drawString(String.valueOf(p.getVieConjugale().getNombreEnfants()), startX + decalage, startY);
@@ -150,12 +158,15 @@ public class Imprimable implements Printable {
 		startY += lineHeight;
 		g.setColor(Color.BLACK);
 		g.drawString("Responsabilité : ", startX, startY);
-		g.drawString(p.getMinistere().getResponsabilite(), startX + decalage, startY);
+		if(p.getMinistere().getResponsabilite() != null)
+			g.drawString(p.getMinistere().getResponsabilite(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Departement : ", startX, startY);
-		g.drawString(p.getMinistere().getDepartement().toString(), startX + decalage, startY);
+		if(p.getMinistere().getDepartement() != null)
+			g.drawString(p.getMinistere().getDepartement().toString(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Date de baptême : ", startX, startY);
+		if(p.getMinistere().getDateBapteme() != null)
 		g.drawString(p.getMinistere().getDateBapteme().format(DateTimeFormatter.ofPattern("dd-MMM-yyyy")), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Section : ", startX, startY);
@@ -170,22 +181,28 @@ public class Imprimable implements Printable {
 		startY += lineHeight;
 		g.setColor(Color.BLACK);
 		g.drawString("Téléphone 1 : ", startX, startY);
+		if(p.getContact().getCel() != null)
 		g.drawString(p.getContact().getCel(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Téléphone 2 : ", startX, startY);
+		if(p.getContact().getTel() != null)
 		g.drawString(p.getContact().getTel(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Contact en cas d'urgence : ", startX, startY);
+		if(p.getContact().getUrgence() != null)
 		g.drawString(p.getContact().getUrgence(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Adresse postale : ", startX, startY);
+		if(p.getContact().getPostal() != null)
 		g.drawString(p.getContact().getPostal(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Email : ", startX, startY);
+		if(p.getContact().getEmail() != null)
 		g.drawString(p.getContact().getEmail(), startX + decalage, startY);
 		startY += lineHeight;
 		g.drawString("Residence : ", startX, startY);
-		g.drawString(p.getContact().getResidence(), startX + decalage, startY);
+		if(p.getContact().getResidence() != null)
+			g.drawString(p.getContact().getResidence(), startX + decalage, startY);
 	}
 	
 }

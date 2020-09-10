@@ -65,12 +65,13 @@ public class Frame extends JFrame{
 		homeView = new HomeView(controleur);
 		
 		//Titre de la fenetre
-		this.setTitle("Gestion des chretiens");
+		this.setTitle("Annuaire");
 		//ouverture en plein ecran
 		this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		//decoration du JFrame
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
+		this.setIconImage(new ImageIcon(this.getClass().getResource("/addressbook.png")).getImage());
 		
 		initMenu();
 		

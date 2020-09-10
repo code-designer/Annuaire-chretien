@@ -56,7 +56,7 @@ public class PersonneDAO extends DAO<Personne> {
 				pst.setObject(i++, FileUtils.copy(obj.getPathImg(), Paths.get(FileUtils.MyDoc+"Images"+File.separator+
 						"user_" + obj.getCode() +"." + FileUtils.getExtension(obj.getPathImg().toString()))));
 			else
-				pst.setObject(i++, Paths.get("Images"+File.separator+"unknown.png"));
+				pst.setObject(i++, Paths.get(FileUtils.MyDoc+"Images"+File.separator+"unknown.png"));
 				
 			int rep = pst.executeUpdate();
 			pst.close();
@@ -150,7 +150,7 @@ public class PersonneDAO extends DAO<Personne> {
 				pst.setObject(i++, FileUtils.copy(obj.getPathImg(), Paths.get(FileUtils.MyDoc+"Images"+File.separator+
 						"user_" + obj.getCode() +"." + FileUtils.getExtension(obj.getPathImg().toString()))));
 			else
-				pst.setObject(i++, Paths.get("Images"+File.separator+"unknown.png"));
+				pst.setObject(i++, Paths.get(FileUtils.MyDoc+"Images"+File.separator+"unknown.png"));
 			
 			//pst.setString(i++, obj.getPathImg().toString());
 			pst.setInt(i++, obj.getPersonneID());
