@@ -40,6 +40,7 @@ public class Window {
 			imgFolder.mkdirs();
 			InputStream inputStream = Window.class.getResourceAsStream("/unknown.png");
 			FileUtils.streamtoImage(inputStream, Paths.get(FileUtils.MyDoc+"Images/unknown.png"));
+			System.getProperty("log", FileUtils.PathAnn+"log.txt");
 		}
 		
 		logger.trace("Lancement de l'application");
